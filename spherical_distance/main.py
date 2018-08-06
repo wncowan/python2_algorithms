@@ -16,13 +16,10 @@ def travel_distance(trip_list):
     print "psi2", psi2
     delta_k = abs(float(k1)-float(k2))
     print delta_k
-    delta_sigma = acos(( sin(psi1) * sin(psi2)) + ( cos(psi1) * cos(psi2) * cos(delta_k) ))
+    delta_sigma = acos(( sin(psi1) * sin(psi2) ) + ( cos(psi1) * cos(psi2) * cos(delta_k) ))
     radius_earth = 3959 
     distance = radius_earth * delta_sigma
     print distance
-    # delta_long = abs()
-    
-   
  
 CHI = "LOC:CHI:41.836944:-87.684722"
 NYC = "LOC:NYC:40.7127:-74.0059"
